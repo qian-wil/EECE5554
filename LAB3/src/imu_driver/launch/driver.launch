@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="port" default="/dev/ttyUSB0" /> <!-- Default value -->
+
+    <node pkg="imu_driver" type="driver.py" name="imu_driver" output="screen">
+        <param name="serial_port" value="$(arg port)" />
+        <param name="baud_rate" value="115200" />
+    </node>
+</launch>
