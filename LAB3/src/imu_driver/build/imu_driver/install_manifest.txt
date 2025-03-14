@@ -1,0 +1,15 @@
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/ament_index/resource_index/package_run_dependencies/imu_driver
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/ament_index/resource_index/parent_prefix_path/imu_driver
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/environment/ament_prefix_path.sh
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/environment/ament_prefix_path.dsv
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/environment/path.sh
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/environment/path.dsv
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/local_setup.bash
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/local_setup.sh
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/local_setup.zsh
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/local_setup.dsv
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/package.dsv
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/ament_index/resource_index/packages/imu_driver
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/cmake/imu_driverConfig.cmake
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/cmake/imu_driverConfig-version.cmake
+/home/qianw/EECE5554/LAB3/src/imu_driver/install/imu_driver/share/imu_driver/package.xml
