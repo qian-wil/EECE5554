@@ -1,9 +1,0 @@
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/uninstall.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/imu_driver_uninstall.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/test.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/edit_cache.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/rebuild_cache.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/list_install_components.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/install.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/install/local.dir
-/home/qianw/EECE5554/LAB3/src/imu_driver/build/imu_driver/CMakeFiles/install/strip.dir
