@@ -1,0 +1,124 @@
+[0.132s] Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface -- -j8 -l8
+[0.139s] [0/1] Re-running CMake...
+[0.166s] -- Found ament_cmake: 1.3.3 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.393s] -- Found ament_cmake_ros: 0.10.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.399s] -- Found rosidl_typesupport_c: 2.0.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.407s] -- Found rosidl_adapter: 3.1.4 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.485s] -- Found rosidl_typesupport_cpp: 2.0.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rosidl_default_generators: 1.2.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.549s] -- Found class_loader: 2.2.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.556s] -- Found rclcpp: 16.0.5 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.708s] -- Found rmw_implementation_cmake: 6.1.1 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_fastrtps_cpp: 6.2.2 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.119s] -- Found std_msgs: 4.2.3 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/std_msgs/cmake)
+[1.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.299s] -- Configuring done
+[2.340s] -- Generating done
+[2.354s] -- Build files have been written to: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface
+[2.383s] ninja: no work to do.
+[2.385s] Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface -- -j8 -l8
+[2.436s] Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface
+[2.440s] -- Install configuration: "Release"
+[2.440s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/gps_interface
+[2.440s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.440s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/gp_smsg.h
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.h
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.h
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.c
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.h
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/rosidl_generator_c__visibility_control.h
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/library_path.sh
+[2.441s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/library_path.dsv
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_generator_c.so
+[2.441s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.442s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.442s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.447s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_c.h
+[2.448s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_fastrtps_c.so
+[2.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_c.h
+[2.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.c
+[2.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_introspection_c.so
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_c.so
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__builder.hpp
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.hpp
+[2.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__traits.hpp
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/gp_smsg.hpp
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/dds_fastrtps
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface
+[2.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg
+[2.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail
+[2.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_cpp.hpp
+[2.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.cpp
+[2.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_introspection_cpp.so
+[2.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface__rosidl_typesupport_cpp.so
+[2.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/msg/GPSmsg.idl
+[2.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/msg/GPSmsg.msg
+[2.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include
+[2.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface
+[2.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/gps_interface/visibility_control.h
+[2.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libgps_interface_matlab.so
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m/
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+gps_interface
+[2.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+gps_interface/gPSmsg.m
+[2.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/gps_interface
+[2.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/gps_interface
+[2.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/ament_prefix_path.sh
+[2.461s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/ament_prefix_path.dsv
+[2.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/path.sh
+[2.461s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/environment/path.dsv
+[2.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/local_setup.bash
+[2.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/local_setup.sh
+[2.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/local_setup.zsh
+[2.462s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/local_setup.dsv
+[2.462s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.dsv
+[2.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/gps_interface
+[2.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport.cmake
+[2.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport-release.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport.cmake
+[2.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport-release.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cppExport.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport-release.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/rosidl_cmake-extras.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.467s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interfaceConfig.cmake
+[2.468s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/cmake/gps_interfaceConfig-version.cmake
+[2.468s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.xml
+[2.469s] Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface

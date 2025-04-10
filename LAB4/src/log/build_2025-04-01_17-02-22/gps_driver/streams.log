@@ -1,0 +1,22 @@
+[1.455s] Invoking command in '/home/qianw/EECE5554/LAB4/src/gps_driver': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB4/src/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB4/src/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gps_driver build --build-base /home/qianw/EECE5554/LAB4/src/build/gps_driver/build install --record /home/qianw/EECE5554/LAB4/src/build/gps_driver/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.872s] writing ../build/gps_driver/gps_driver.egg-info/PKG-INFO
+[1.873s] writing dependency_links to ../build/gps_driver/gps_driver.egg-info/dependency_links.txt
+[1.873s] writing entry points to ../build/gps_driver/gps_driver.egg-info/entry_points.txt
+[1.873s] writing requirements to ../build/gps_driver/gps_driver.egg-info/requires.txt
+[1.874s] writing top-level names to ../build/gps_driver/gps_driver.egg-info/top_level.txt
+[1.877s] reading manifest file '../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.877s] adding license file 'LICENSE'
+[1.878s] writing manifest file '../build/gps_driver/gps_driver.egg-info/SOURCES.txt'
+[1.878s] running build
+[1.878s] running build_py
+[1.879s] running install
+[1.879s] running install_lib
+[1.881s] running install_data
+[1.881s] running install_egg_info
+[1.884s] removing '/home/qianw/EECE5554/LAB4/src/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.885s] Copying ../build/gps_driver/gps_driver.egg-info to /home/qianw/EECE5554/LAB4/src/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info
+[1.886s] running install_scripts
+[1.922s] Installing gps_driver script to /home/qianw/EECE5554/LAB4/src/install/gps_driver/lib/gps_driver
+[1.923s] writing list of installed files to '/home/qianw/EECE5554/LAB4/src/build/gps_driver/install.log'
+[1.960s] Invoked command in '/home/qianw/EECE5554/LAB4/src/gps_driver' returned '0': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB4/src/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB4/src/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gps_driver build --build-base /home/qianw/EECE5554/LAB4/src/build/gps_driver/build install --record /home/qianw/EECE5554/LAB4/src/build/gps_driver/install.log --single-version-externally-managed install_data

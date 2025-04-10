@@ -1,0 +1,124 @@
+[0.060s] Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface -- -j8 -l8
+[0.073s] [0/1] Re-running CMake...
+[0.103s] -- Found ament_cmake: 1.3.3 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)
+[0.307s] -- Found ament_cmake_ros: 0.10.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)
+[0.314s] -- Found rosidl_typesupport_c: 2.0.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 3.1.4 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)
+[0.387s] -- Found rosidl_typesupport_cpp: 2.0.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rosidl_default_generators: 1.2.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)
+[0.456s] -- Found class_loader: 2.2.0 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/class_loader/cmake)
+[0.460s] -- Found rclcpp: 16.0.5 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)
+[0.614s] -- Found rmw_implementation_cmake: 6.1.1 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)
+[0.614s] -- Found rmw_fastrtps_cpp: 6.2.2 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.041s] -- Found sensor_msgs: 4.2.3 (/home/qianw/MATLAB/R2024b/sys/ros2/glnxa64/ros2/share/sensor_msgs/cmake)
+[2.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.321s] -- Configuring done
+[3.376s] -- Generating done
+[3.384s] -- Build files have been written to: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface
+[3.414s] ninja: no work to do.
+[3.416s] Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface -- -j8 -l8
+[3.444s] Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface
+[3.448s] -- Install configuration: "Release"
+[3.448s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/imu_interface
+[3.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.449s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__struct.h
+[3.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.h
+[3.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__functions.h
+[3.450s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__functions.c
+[3.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/rosidl_generator_c__visibility_control.h
+[3.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/im_umsg.h
+[3.451s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/library_path.sh
+[3.451s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/library_path.dsv
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_generator_c.so
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_fastrtps_c.h
+[3.452s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_fastrtps_c.so
+[3.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.453s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_introspection_c.h
+[3.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.c
+[3.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_introspection_c.so
+[3.454s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_c.so
+[3.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__struct.hpp
+[3.455s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__builder.hpp
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__traits.hpp
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/im_umsg.hpp
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.456s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.457s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/dds_fastrtps
+[3.457s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_fastrtps_cpp.so
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_introspection_cpp.hpp
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.cpp
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_introspection_cpp.so
+[3.458s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface__rosidl_typesupport_cpp.so
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/msg/IMUmsg.idl
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/msg/IMUmsg.msg
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/include/imu_interface/visibility_control.h
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/libimu_interface_matlab.so
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m/
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal
+[3.459s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+imu_interface
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+imu_interface/iMUmsg.m
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/imu_interface
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/imu_interface
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/ament_prefix_path.sh
+[3.460s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/ament_prefix_path.dsv
+[3.460s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/path.sh
+[3.461s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/environment/path.dsv
+[3.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/local_setup.bash
+[3.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/local_setup.sh
+[3.461s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/local_setup.zsh
+[3.461s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/local_setup.dsv
+[3.462s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.dsv
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/imu_interface
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cExport.cmake
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cExport-release.cmake
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[3.462s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cExport.cmake
+[3.463s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[3.463s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cExport.cmake
+[3.463s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cExport-release.cmake
+[3.463s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cppExport.cmake
+[3.464s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.464s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[3.464s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.464s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cppExport.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cppExport-release.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/rosidl_cmake-extras.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.465s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.466s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.469s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interfaceConfig.cmake
+[3.470s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/cmake/imu_interfaceConfig-version.cmake
+[3.470s] -- Installing: /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.xml
+[3.476s] Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface

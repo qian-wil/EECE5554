@@ -1,0 +1,228 @@
+[0.022s] Invoking command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB4/src/gps_interface -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB4/src/install/gps_interface
+[0.231s] -- The C compiler identification is GNU 11.4.0
+[0.388s] -- The CXX compiler identification is GNU 11.4.0
+[0.407s] -- Detecting C compiler ABI info
+[0.512s] -- Detecting C compiler ABI info - done
+[0.524s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.536s] -- Detecting C compile features
+[0.539s] -- Detecting C compile features - done
+[0.546s] -- Detecting CXX compiler ABI info
+[0.668s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.682s] -- Detecting CXX compile features
+[0.683s] -- Detecting CXX compile features - done
+[0.698s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.124s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.148s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.303s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.777s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.649s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.693s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.693s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.694s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.694s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.727s] -- Found PythonExtra: .so  
+[2.820s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.871s] -- Added test 'lint_cmake' to check CMake code style
+[2.873s] -- Added test 'xmllint' to check XML markup files
+[2.878s] -- Configuring done
+[2.929s] -- Generating done
+[2.948s] -- Build files have been written to: /home/qianw/EECE5554/LAB4/src/build/gps_interface
+[2.959s] Invoked command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB4/src/gps_interface -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB4/src/install/gps_interface
+[2.959s] Invoking command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB4/src/build/gps_interface -- -j8 -l8
+[3.018s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.033s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.052s] [  6%] Built target ament_cmake_python_copy_gps_interface
+[3.481s] running egg_info
+[3.482s] creating gps_interface.egg-info
+[3.482s] writing gps_interface.egg-info/PKG-INFO
+[3.482s] writing dependency_links to gps_interface.egg-info/dependency_links.txt
+[3.482s] writing top-level names to gps_interface.egg-info/top_level.txt
+[3.482s] writing manifest file 'gps_interface.egg-info/SOURCES.txt'
+[3.486s] reading manifest file 'gps_interface.egg-info/SOURCES.txt'
+[3.488s] writing manifest file 'gps_interface.egg-info/SOURCES.txt'
+[3.515s] [  6%] Built target gps_interface__cpp
+[3.531s] [  9%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_generator_c.dir/rosidl_generator_c/gps_interface/msg/detail/gp_smsg__functions.c.o[0m
+[3.533s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.533s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.533s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.543s] [ 19%] Built target ament_cmake_python_build_gps_interface_egg
+[3.692s] [ 22%] [32m[1mLinking C shared library libgps_interface__rosidl_generator_c.so[0m
+[3.769s] [ 22%] Built target gps_interface__rosidl_generator_c
+[3.786s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.791s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.791s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.021s] [ 35%] [32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps_interface/msg/gp_smsg__type_support.cpp.o[0m
+[4.045s] [ 38%] [32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps_interface/msg/detail/gp_smsg__type_support.cpp.o[0m
+[4.125s] [ 41%] [32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps_interface/msg/detail/dds_fastrtps/gp_smsg__type_support.cpp.o[0m
+[4.296s] [ 45%] [32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps_interface/msg/gp_smsg__type_support.cpp.o[0m
+[4.382s] [ 48%] [32m[1mLinking CXX shared library libgps_interface__rosidl_typesupport_c.so[0m
+[4.382s] [ 51%] [32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps_interface/msg/detail/gp_smsg__type_support_c.cpp.o[0m
+[4.431s] [ 54%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps_interface/msg/detail/gp_smsg__type_support.c.o[0m
+[4.528s] [ 54%] Built target gps_interface__rosidl_typesupport_c
+[4.557s] [ 58%] [32m[1mLinking C shared library libgps_interface__rosidl_typesupport_introspection_c.so[0m
+[4.654s] [ 58%] Built target gps_interface__rosidl_typesupport_introspection_c
+[4.728s] [ 61%] [32m[1mLinking CXX shared library libgps_interface__rosidl_typesupport_cpp.so[0m
+[4.876s] [ 61%] Built target gps_interface__rosidl_typesupport_cpp
+[4.997s] [ 64%] [32m[1mLinking CXX shared library libgps_interface__rosidl_typesupport_introspection_cpp.so[0m
+[5.128s] [ 64%] Built target gps_interface__rosidl_typesupport_introspection_cpp
+[5.222s] [ 67%] [32m[1mLinking CXX shared library libgps_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.260s] [ 70%] [32m[1mLinking CXX shared library libgps_interface__rosidl_typesupport_fastrtps_c.so[0m
+[5.364s] [ 70%] Built target gps_interface__rosidl_typesupport_fastrtps_cpp
+[5.409s] [ 70%] Built target gps_interface__rosidl_typesupport_fastrtps_c
+[5.443s] [ 70%] Built target gps_interface
+[5.477s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.039s] [ 74%] Built target gps_interface__py
+[6.070s] [ 77%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_generator_py.dir/rosidl_generator_py/gps_interface/msg/_gp_smsg_s.c.o[0m
+[6.308s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/gps_interface/libgps_interface__rosidl_generator_py.so[0m
+[6.380s] [ 80%] Built target gps_interface__rosidl_generator_py
+[6.410s] [ 83%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.411s] [ 87%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[6.420s] [ 90%] [32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.593s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.593s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.594s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.666s] [100%] Built target gps_interface__rosidl_typesupport_introspection_c__pyext
+[6.673s] [100%] Built target gps_interface__rosidl_typesupport_c__pyext
+[6.679s] [100%] Built target gps_interface__rosidl_typesupport_fastrtps_c__pyext
+[6.714s] Invoked command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB4/src/build/gps_interface -- -j8 -l8
+[6.731s] Invoking command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB4/src/build/gps_interface
+[6.743s] -- Install configuration: ""
+[6.743s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/ament_index/resource_index/rosidl_interfaces/gps_interface
+[6.743s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.743s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/gp_smsg.h
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.h
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.h
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.c
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.h
+[6.744s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_generator_c__visibility_control.h
+[6.745s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/library_path.sh
+[6.745s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/library_path.dsv
+[6.745s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_generator_c.so
+[6.746s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_generator_c.so" to ""
+[6.746s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.746s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.746s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.746s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_c.h
+[6.746s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.747s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_c.so
+[6.747s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[6.747s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.747s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.748s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.748s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_c.h
+[6.748s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.c
+[6.748s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.749s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_c.so
+[6.749s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_c.so" to ""
+[6.749s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_c.so
+[6.749s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_c.so" to ""
+[6.750s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.750s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.750s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.750s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.750s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.hpp
+[6.751s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__builder.hpp
+[6.751s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.hpp
+[6.751s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__traits.hpp
+[6.751s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/gp_smsg.hpp
+[6.751s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.751s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.751s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.752s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.752s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/dds_fastrtps
+[6.752s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.753s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_cpp.so
+[6.753s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.753s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface
+[6.753s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg
+[6.753s] -- Up-to-date: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail
+[6.753s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_cpp.hpp
+[6.753s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.cpp
+[6.753s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_cpp.so
+[6.754s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[6.754s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_cpp.so
+[6.754s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_typesupport_cpp.so" to ""
+[6.754s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/pythonpath.sh
+[6.754s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/pythonpath.dsv
+[6.754s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/top_level.txt
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface
+[6.755s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.756s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.756s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/libgps_interface__rosidl_generator_py.so
+[6.756s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/__init__.py
+[6.756s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_c.c
+[6.756s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_introspection_c.c
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg_s.c
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg.py
+[6.757s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/__init__.py
+[6.818s] Listing '/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface'...
+[6.819s] Compiling '/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/__init__.py'...
+[6.819s] Listing '/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg'...
+[6.819s] Compiling '/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/__init__.py'...
+[6.819s] Compiling '/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg.py'...
+[6.824s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.825s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.825s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.826s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.826s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.826s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.826s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_generator_py.so
+[6.827s] -- Set runtime path of "/home/qianw/EECE5554/LAB4/src/install/gps_interface/lib/libgps_interface__rosidl_generator_py.so" to ""
+[6.827s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/msg/GPSmsg.idl
+[6.827s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/msg/GPSmsg.msg
+[6.828s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/ament_index/resource_index/package_run_dependencies/gps_interface
+[6.830s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/ament_index/resource_index/parent_prefix_path/gps_interface
+[6.830s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/ament_prefix_path.sh
+[6.832s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/ament_prefix_path.dsv
+[6.833s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/path.sh
+[6.833s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/environment/path.dsv
+[6.833s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/local_setup.bash
+[6.834s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/local_setup.sh
+[6.834s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/local_setup.zsh
+[6.834s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/local_setup.dsv
+[6.834s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/package.dsv
+[6.842s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/ament_index/resource_index/packages/gps_interface
+[6.842s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport.cmake
+[6.843s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport-noconfig.cmake
+[6.843s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.843s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.843s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport.cmake
+[6.844s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.844s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport.cmake
+[6.844s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport-noconfig.cmake
+[6.844s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cppExport.cmake
+[6.845s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.846s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.846s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_pyExport.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_pyExport-noconfig.cmake
+[6.847s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/rosidl_cmake-extras.cmake
+[6.848s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.848s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.848s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.848s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.852s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.852s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.852s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interfaceConfig.cmake
+[6.852s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/cmake/gps_interfaceConfig-version.cmake
+[6.853s] -- Installing: /home/qianw/EECE5554/LAB4/src/install/gps_interface/share/gps_interface/package.xml
+[6.854s] Invoked command in '/home/qianw/EECE5554/LAB4/src/build/gps_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB4/src/build/gps_interface

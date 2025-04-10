@@ -1,0 +1,6 @@
+{
+  "package_name": "gps_interface",
+  "non_idl_tuples": [
+    "/home/qianw/EECE5554/LAB4/src/gps_interface:msg/GPSmsg.msg"
+  ]
+}

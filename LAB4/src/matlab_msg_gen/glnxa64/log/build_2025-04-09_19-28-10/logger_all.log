@@ -1,0 +1,217 @@
+[1.111s] DEBUG:colcon:Command line arguments: ['/home/qianw/.matlab/R2024b/ros2/glnxa64/venv/bin/colcon', 'build', '--merge-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++']
+[1.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c2d145f4550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c2d14747310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c2d14747310>>)
+[1.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.274s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore_ament_install'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_pkg']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_pkg'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_meta']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_meta'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ros']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ros'
+[1.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_interface' with type 'ros.ament_cmake' and name 'gps_interface'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore_ament_install'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_pkg']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ros'
+[1.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_interface' with type 'ros.ament_cmake' and name 'imu_interface'
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++']'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.486s] DEBUG:colcon.colcon_core.verb:Building package 'gps_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install', 'merge_install': True, 'path': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/gps_interface', 'symlink_install': False, 'test_result_base': None}
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++']'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target' from command line to 'None'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.505s] DEBUG:colcon.colcon_core.verb:Building package 'imu_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,-no-as-needed', '-DBUILD_TESTING=OFF', '-DALIAS_ROS2_TF2=1', '-DCMAKE_CXX_FLAGS_RELEASE=-O0', '-G', 'Ninja', '-DCMAKE_C_COMPILER=/usr/bin/gcc', '-DCMAKE_CXX_COMPILER=/usr/bin/g++'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install', 'merge_install': True, 'path': '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/imu_interface', 'symlink_install': False, 'test_result_base': None}
+[1.509s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/gps_interface' with build type 'ament_cmake'
+[1.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/gps_interface'
+[1.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.625s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/imu_interface' with build type 'ament_cmake'
+[1.625s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/src/imu_interface'
+[1.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface -- -j8 -l8
+[1.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface -- -j8 -l8
+[4.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface -- -j8 -l8
+[4.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface
+[4.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interface)
+[4.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/gps_interface
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake module files
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake config files
+[4.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'cmake_prefix_path')
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.ps1'
+[4.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.dsv'
+[4.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.sh'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib'
+[4.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'ld_library_path_lib')
+[4.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.ps1'
+[4.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.dsv'
+[4.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.sh'
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/pkgconfig/gps_interface.pc'
+[4.674s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[4.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.ps1'
+[4.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.dsv'
+[4.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.sh'
+[4.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.bash'
+[4.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.zsh'
+[4.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/gps_interface)
+[4.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interface)
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake module files
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake config files
+[4.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'cmake_prefix_path')
+[4.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.ps1'
+[4.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.dsv'
+[4.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/cmake_prefix_path.sh'
+[4.780s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib'
+[4.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'ld_library_path_lib')
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.ps1'
+[4.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.dsv'
+[4.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/hook/ld_library_path_lib.sh'
+[4.800s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[4.800s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/pkgconfig/gps_interface.pc'
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[4.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.ps1'
+[4.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.sh'
+[4.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.bash'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/gps_interface/package.zsh'
+[4.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/gps_interface)
+[5.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --build /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface -- -j8 -l8
+[5.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface
+[5.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[5.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface' returned '0': PS1=(venv) VIRTUAL_ENV_PROMPT=(venv) /home/qianw/MATLAB/R2024b/bin/glnxa64/cmake/bin/cmake --install /home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/build/imu_interface
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake config files
+[5.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'cmake_prefix_path')
+[5.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.ps1'
+[5.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.sh'
+[5.564s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib'
+[5.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ld_library_path_lib')
+[5.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.ps1'
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.sh'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/pkgconfig/imu_interface.pc'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[5.580s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[5.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.ps1'
+[5.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.dsv'
+[5.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.sh'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.bash'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.zsh'
+[5.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/imu_interface)
+[5.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake module files
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install' for CMake config files
+[5.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'cmake_prefix_path')
+[5.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.ps1'
+[5.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.dsv'
+[5.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/cmake_prefix_path.sh'
+[5.666s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib'
+[5.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ld_library_path_lib')
+[5.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.ps1'
+[5.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.dsv'
+[5.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/hook/ld_library_path_lib.sh'
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/pkgconfig/imu_interface.pc'
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/lib/python3.10/site-packages'
+[5.682s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/bin'
+[5.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.ps1'
+[5.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.dsv'
+[5.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.sh'
+[5.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.bash'
+[5.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/imu_interface/package.zsh'
+[5.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/share/colcon-core/packages/imu_interface)
+[5.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.699s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[5.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.727s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[5.773s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/local_setup.ps1'
+[5.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/_local_setup_util_ps1.py'
+[5.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/setup.ps1'
+[5.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/local_setup.sh'
+[5.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/_local_setup_util_sh.py'
+[5.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/setup.sh'
+[5.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/local_setup.bash'
+[5.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/setup.bash'
+[5.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/local_setup.zsh'
+[5.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB4/src/matlab_msg_gen/glnxa64/install/setup.zsh'

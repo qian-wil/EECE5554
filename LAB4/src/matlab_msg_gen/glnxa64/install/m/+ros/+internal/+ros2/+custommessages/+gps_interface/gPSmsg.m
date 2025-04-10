@@ -1,0 +1,37 @@
+function [data, info] = gPSmsg
+%GPSmsg gives an empty data for gps_interface/GPSmsg
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'gps_interface/GPSmsg';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.latitude, info.latitude] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.longitude, info.longitude] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.altitude, info.altitude] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.hdop, info.hdop] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.utm_easting, info.utm_easting] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.utm_northing, info.utm_northing] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.utc, info.utc] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+[data.zone, info.zone] = ros.internal.ros2.messages.ros2.default_type('int64',1,0);
+[data.letter, info.letter] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+info.MessageType = 'gps_interface/GPSmsg';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,14);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'latitude';
+info.MatPath{7} = 'longitude';
+info.MatPath{8} = 'altitude';
+info.MatPath{9} = 'hdop';
+info.MatPath{10} = 'utm_easting';
+info.MatPath{11} = 'utm_northing';
+info.MatPath{12} = 'utc';
+info.MatPath{13} = 'zone';
+info.MatPath{14} = 'letter';
