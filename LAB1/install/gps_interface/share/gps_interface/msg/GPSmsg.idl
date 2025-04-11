@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps_interface/msg/GPSmsg.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gps_interface {
+  module msg {
+    struct GPSmsg {
+      std_msgs::msg::Header header;
+
+      double latitude;
+
+      double longitude;
+
+      string altitude;
+
+      double hdop;
+
+      double utm_easting;
+
+      double utm_northing;
+
+      string utc;
+
+      int64 zone;
+
+      string letter;
+    };
+  };
+};

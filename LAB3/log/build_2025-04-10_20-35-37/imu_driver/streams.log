@@ -1,0 +1,39 @@
+[1.477s] Invoking command in '/home/qianw/EECE5554/LAB3/src/imu_driver': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB3/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/qianw/EECE5554/LAB3/build/imu_driver/build install --record /home/qianw/EECE5554/LAB3/build/imu_driver/install.log --single-version-externally-managed install_data
+[1.856s] running egg_info
+[1.857s] creating ../../build/imu_driver/imu_driver.egg-info
+[1.857s] writing ../../build/imu_driver/imu_driver.egg-info/PKG-INFO
+[1.857s] writing dependency_links to ../../build/imu_driver/imu_driver.egg-info/dependency_links.txt
+[1.858s] writing entry points to ../../build/imu_driver/imu_driver.egg-info/entry_points.txt
+[1.858s] writing requirements to ../../build/imu_driver/imu_driver.egg-info/requires.txt
+[1.858s] writing top-level names to ../../build/imu_driver/imu_driver.egg-info/top_level.txt
+[1.858s] writing manifest file '../../build/imu_driver/imu_driver.egg-info/SOURCES.txt'
+[1.860s] reading manifest file '../../build/imu_driver/imu_driver.egg-info/SOURCES.txt'
+[1.861s] writing manifest file '../../build/imu_driver/imu_driver.egg-info/SOURCES.txt'
+[1.861s] running build
+[1.862s] running build_py
+[1.862s] creating /home/qianw/EECE5554/LAB3/build/imu_driver/build
+[1.862s] creating /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib
+[1.862s] creating /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib/imu_driver
+[1.862s] copying imu_driver/imu_driver.py -> /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib/imu_driver
+[1.873s] copying imu_driver/__init__.py -> /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib/imu_driver
+[1.874s] running install
+[1.874s] running install_lib
+[1.874s] creating /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver
+[1.875s] copying /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib/imu_driver/imu_driver.py -> /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver
+[1.875s] copying /home/qianw/EECE5554/LAB3/build/imu_driver/build/lib/imu_driver/__init__.py -> /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver
+[1.876s] byte-compiling /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver/imu_driver.py to imu_driver.cpython-310.pyc
+[1.877s] byte-compiling /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver/__init__.py to __init__.cpython-310.pyc
+[1.877s] running install_data
+[1.877s] creating /home/qianw/EECE5554/LAB3/install/imu_driver/share/ament_index
+[1.878s] creating /home/qianw/EECE5554/LAB3/install/imu_driver/share/ament_index/resource_index
+[1.878s] creating /home/qianw/EECE5554/LAB3/install/imu_driver/share/ament_index/resource_index/packages
+[1.878s] copying resource/imu_driver -> /home/qianw/EECE5554/LAB3/install/imu_driver/share/ament_index/resource_index/packages
+[1.878s] copying package.xml -> /home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver
+[1.878s] creating /home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/launch
+[1.878s] copying launch/imu_launch.py -> /home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/launch
+[1.879s] running install_egg_info
+[1.881s] Copying ../../build/imu_driver/imu_driver.egg-info to /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver-0.0.0-py3.10.egg-info
+[1.882s] running install_scripts
+[1.911s] Installing imu_driver script to /home/qianw/EECE5554/LAB3/install/imu_driver/lib/imu_driver
+[1.912s] writing list of installed files to '/home/qianw/EECE5554/LAB3/build/imu_driver/install.log'
+[1.944s] Invoked command in '/home/qianw/EECE5554/LAB3/src/imu_driver' returned '0': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB3/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/qianw/EECE5554/LAB3/build/imu_driver/build install --record /home/qianw/EECE5554/LAB3/build/imu_driver/install.log --single-version-externally-managed install_data

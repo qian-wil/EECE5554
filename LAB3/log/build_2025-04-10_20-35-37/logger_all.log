@@ -1,0 +1,260 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a3f44565240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a3f445641f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a3f445641f0>>, mixin_verb=('build',))
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.399s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qianw/EECE5554/LAB3'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_03_21-19_28_02) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_moving) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_driver' with type 'ros.ament_python' and name 'imu_driver'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_interface' with type 'ros.ament_cmake' and name 'imu_interface'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/matlab_msg_gen) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/matlab_msg_gen) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/matlab_msg_gen) ignored
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.544s] DEBUG:colcon.colcon_core.verb:Building package 'imu_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB3/build/imu_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB3/install/imu_interface', 'merge_install': False, 'path': '/home/qianw/EECE5554/LAB3/src/imu_interface', 'symlink_install': False, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'imu_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB3/build/imu_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB3/install/imu_driver', 'merge_install': False, 'path': '/home/qianw/EECE5554/LAB3/src/imu_driver', 'symlink_install': False, 'test_result_base': None}
+[0.545s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.547s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qianw/EECE5554/LAB3/src/imu_interface' with build type 'ament_cmake'
+[0.547s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qianw/EECE5554/LAB3/src/imu_interface'
+[0.550s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB3/build/imu_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB3/src/imu_interface -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB3/install/imu_interface
+[6.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB3/build/imu_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB3/src/imu_interface -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB3/install/imu_interface
+[6.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB3/build/imu_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB3/build/imu_interface -- -j8 -l8
+[11.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB3/build/imu_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB3/build/imu_interface -- -j8 -l8
+[11.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB3/build/imu_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB3/build/imu_interface
+[11.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[11.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB3/build/imu_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB3/build/imu_interface
+[11.643s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface' for CMake module files
+[11.644s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface' for CMake config files
+[11.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'cmake_prefix_path')
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.ps1'
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.dsv'
+[11.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.sh'
+[11.647s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib'
+[11.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ld_library_path_lib')
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.ps1'
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.dsv'
+[11.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.sh'
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/bin'
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib/pkgconfig/imu_interface.pc'
+[11.650s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib/python3.10/site-packages'
+[11.650s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/bin'
+[11.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.ps1'
+[11.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.dsv'
+[11.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.sh'
+[11.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.bash'
+[11.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.zsh'
+[11.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB3/install/imu_interface/share/colcon-core/packages/imu_interface)
+[11.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface' for CMake module files
+[11.658s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface' for CMake config files
+[11.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'cmake_prefix_path')
+[11.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.ps1'
+[11.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.dsv'
+[11.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/cmake_prefix_path.sh'
+[11.661s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib'
+[11.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ld_library_path_lib')
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.ps1'
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.dsv'
+[11.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/hook/ld_library_path_lib.sh'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/bin'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib/pkgconfig/imu_interface.pc'
+[11.665s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/lib/python3.10/site-packages'
+[11.665s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_interface/bin'
+[11.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.ps1'
+[11.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.dsv'
+[11.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.sh'
+[11.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.bash'
+[11.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.zsh'
+[11.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB3/install/imu_interface/share/colcon-core/packages/imu_interface)
+[11.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qianw/EECE5554/LAB3/src/imu_driver' with build type 'ament_python'
+[11.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'ament_prefix_path')
+[11.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/ament_prefix_path.ps1'
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/ament_prefix_path.dsv'
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/ament_prefix_path.sh'
+[11.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qianw/EECE5554/LAB3/src/imu_driver'
+[12.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB3/src/imu_driver': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB3/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/qianw/EECE5554/LAB3/build/imu_driver/build install --record /home/qianw/EECE5554/LAB3/build/imu_driver/install.log --single-version-externally-managed install_data
+[13.616s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver' for CMake module files
+[13.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB3/src/imu_driver' returned '0': AMENT_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface LD_LIBRARY_PATH=/home/qianw/EECE5554/LAB3/install/imu_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qianw/EECE5554/LAB3/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/qianw/EECE5554/LAB3/build/imu_driver/build install --record /home/qianw/EECE5554/LAB3/build/imu_driver/install.log --single-version-externally-managed install_data
+[13.618s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver' for CMake config files
+[13.619s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver/lib'
+[13.619s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver/bin'
+[13.619s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver/lib/pkgconfig/imu_driver.pc'
+[13.619s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages'
+[13.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'pythonpath')
+[13.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/pythonpath.ps1'
+[13.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/pythonpath.dsv'
+[13.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/hook/pythonpath.sh'
+[13.622s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB3/install/imu_driver/bin'
+[13.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_driver)
+[13.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/package.ps1'
+[13.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/package.dsv'
+[13.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/package.sh'
+[13.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/package.bash'
+[13.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver/package.zsh'
+[13.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB3/install/imu_driver/share/colcon-core/packages/imu_driver)
+[13.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.626s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.634s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.636s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[13.636s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB3/install/local_setup.ps1'
+[13.638s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB3/install/_local_setup_util_ps1.py'
+[13.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB3/install/setup.ps1'
+[13.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB3/install/local_setup.sh'
+[13.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB3/install/_local_setup_util_sh.py'
+[13.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB3/install/setup.sh'
+[13.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB3/install/local_setup.bash'
+[13.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB3/install/setup.bash'
+[13.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB3/install/local_setup.zsh'
+[13.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB3/install/setup.zsh'

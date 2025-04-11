@@ -1,0 +1,6 @@
+{
+  "package_name": "imu_interface",
+  "non_idl_tuples": [
+    "/home/qianw/EECE5554/LAB3/src/matlab_msg_gen/glnxa64/src/imu_interface:msg/IMUmsg.msg"
+  ]
+}

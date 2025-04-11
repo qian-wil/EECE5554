@@ -1,0 +1,214 @@
+[0.176s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.177s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7285e1c517b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7285e1c50760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7285e1c50760>>, mixin_verb=('build',))
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.442s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qianw/EECE5554/LAB1'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/analysis scripts) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_driver) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_driver' with type 'ros.ament_python' and name 'gps_driver'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_interface' with type 'ros.ament_cmake' and name 'gps_interface'
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/qianw/EECE5554/LAB1/install
+[0.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'gps_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB1/build/gps_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB1/install/gps_interface', 'merge_install': False, 'path': '/home/qianw/EECE5554/LAB1/src/gps_interface', 'symlink_install': False, 'test_result_base': None}
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'gps_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'gps_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qianw/EECE5554/LAB1/build/gps_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qianw/EECE5554/LAB1/install/gps_driver', 'merge_install': False, 'path': '/home/qianw/EECE5554/LAB1/src/gps_driver', 'symlink_install': False, 'test_result_base': None}
+[0.579s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qianw/EECE5554/LAB1/src/gps_interface' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qianw/EECE5554/LAB1/src/gps_interface'
+[0.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB1/build/gps_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB1/build/gps_interface -- -j8 -l8
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB1/build/gps_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB1/build/gps_interface -- -j8 -l8
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB1/build/gps_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB1/build/gps_interface
+[1.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interface)
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB1/build/gps_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB1/build/gps_interface
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface' for CMake module files
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'cmake_prefix_path')
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib'
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'ld_library_path_lib')
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.sh'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/bin'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib/pkgconfig/gps_interface.pc'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib/python3.10/site-packages'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/bin'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.sh'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.bash'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.zsh'
+[1.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB1/install/gps_interface/share/colcon-core/packages/gps_interface)
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interface)
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface' for CMake module files
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface' for CMake config files
+[1.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'cmake_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/cmake_prefix_path.sh'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'ld_library_path_lib')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/hook/ld_library_path_lib.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib/pkgconfig/gps_interface.pc'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/lib/python3.10/site-packages'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_interface/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB1/install/gps_interface/share/colcon-core/packages/gps_interface)
+[1.305s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qianw/EECE5554/LAB1/src/gps_driver' with build type 'ament_python'
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_driver', 'ament_prefix_path')
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/ament_prefix_path.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/ament_prefix_path.dsv'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/ament_prefix_path.sh'
+[1.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.717s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qianw/EECE5554/LAB1/src/gps_driver'
+[1.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qianw/EECE5554/LAB1/src/gps_driver': PYTHONPATH=/home/qianw/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/qianw/EECE5554/LAB1/build/gps_driver/build install --record /home/qianw/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver' for CMake module files
+[2.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qianw/EECE5554/LAB1/src/gps_driver' returned '0': PYTHONPATH=/home/qianw/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_driver build --build-base /home/qianw/EECE5554/LAB1/build/gps_driver/build install --record /home/qianw/EECE5554/LAB1/build/gps_driver/install.log --single-version-externally-managed install_data
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver' for CMake config files
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver/lib'
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver/bin'
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver/lib/pkgconfig/gps_driver.pc'
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages'
+[2.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_driver', 'pythonpath')
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/pythonpath.ps1'
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/pythonpath.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/hook/pythonpath.sh'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/qianw/EECE5554/LAB1/install/gps_driver/bin'
+[2.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_driver)
+[2.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/package.ps1'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/package.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/package.sh'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/package.bash'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/package.zsh'
+[2.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qianw/EECE5554/LAB1/install/gps_driver/share/colcon-core/packages/gps_driver)
+[2.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.688s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.697s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.697s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[2.697s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB1/install/local_setup.ps1'
+[2.701s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB1/install/_local_setup_util_ps1.py'
+[2.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB1/install/setup.ps1'
+[2.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB1/install/local_setup.sh'
+[2.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qianw/EECE5554/LAB1/install/_local_setup_util_sh.py'
+[2.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB1/install/setup.sh'
+[2.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB1/install/local_setup.bash'
+[2.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB1/install/setup.bash'
+[2.711s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qianw/EECE5554/LAB1/install/local_setup.zsh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qianw/EECE5554/LAB1/install/setup.zsh'

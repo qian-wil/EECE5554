@@ -1,6 +1,0 @@
-Invoking command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB1/src/gps_driver -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB1/src/install/gps_driver
-Invoked command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qianw/EECE5554/LAB1/src/gps_driver -DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB1/src/install/gps_driver
-Invoking command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB1/src/build/gps_driver -- -j8 -l8
-Invoked command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qianw/EECE5554/LAB1/src/build/gps_driver -- -j8 -l8
-Invoking command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB1/src/build/gps_driver
-Invoked command in '/home/qianw/EECE5554/LAB1/src/build/gps_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qianw/EECE5554/LAB1/src/build/gps_driver

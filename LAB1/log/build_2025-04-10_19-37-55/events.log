@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.001597] (gps_interface) JobQueued: {'identifier': 'gps_interface', 'dependencies': OrderedDict()}
+[0.001672] (gps_driver) JobQueued: {'identifier': 'gps_driver', 'dependencies': OrderedDict([('gps_interface', '/home/qianw/EECE5554/LAB1/install/gps_interface')])}
+[0.001713] (gps_interface) JobStarted: {'identifier': 'gps_interface'}
+[0.012723] (gps_interface) JobProgress: {'identifier': 'gps_interface', 'progress': 'cmake'}
+[0.013355] (gps_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/qianw/EECE5554/LAB1/src/gps_interface', '-DCMAKE_INSTALL_PREFIX=/home/qianw/EECE5554/LAB1/install/gps_interface'], 'cwd': '/home/qianw/EECE5554/LAB1/build/gps_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'qianw'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/qianw/EECE5554/LAB1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3829'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qianw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qianw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Loounx2:@/tmp/.ICE-unix/1594,unix/Loounx2:/tmp/.ICE-unix/1594'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1595c8fc_82f8_4ee9_a324_5df150e622de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DXHR42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_driver:/home/qianw/EECE5554/LAB1/install/gps_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qianw/EECE5554/LAB1/build/gps_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble')]), 'shell': False}
+[0.094699] (gps_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099846] (-) TimerEvent: {}
+[0.182973] (gps_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.194873] (gps_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200031] (-) TimerEvent: {}
+[0.295587] (gps_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300779] (-) TimerEvent: {}
+[0.307975] (gps_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.308459] (gps_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.308986] (gps_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.313273] (gps_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401833] (-) TimerEvent: {}
+[0.431418] (gps_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.444865] (gps_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.445269] (gps_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.446054] (gps_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.448525] (gps_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502676] (-) TimerEvent: {}
+[0.605379] (-) TimerEvent: {}
+[0.682671] (gps_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.706174] (-) TimerEvent: {}
+[0.807122] (gps_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.807380] (-) TimerEvent: {}
+[0.810856] (gps_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.818937] (gps_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.873282] (gps_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.908340] (-) TimerEvent: {}
+[0.919534] (gps_interface) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.011496] (-) TimerEvent: {}
+[1.114431] (-) TimerEvent: {}
+[1.218745] (-) TimerEvent: {}
+[1.319428] (-) TimerEvent: {}
+[1.353717] (gps_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.419968] (-) TimerEvent: {}
+[1.521550] (-) TimerEvent: {}
+[1.622454] (-) TimerEvent: {}
+[1.685056] (gps_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.722993] (-) TimerEvent: {}
+[1.824657] (-) TimerEvent: {}
+[1.926506] (-) TimerEvent: {}
+[2.028779] (-) TimerEvent: {}
+[2.114814] (gps_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.129819] (-) TimerEvent: {}
+[2.147737] (gps_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.149547] (gps_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.189394] (gps_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.190072] (gps_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.191170] (gps_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.191273] (gps_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.221935] (gps_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.232819] (-) TimerEvent: {}
+[2.294706] (gps_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.319512] (gps_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.324760] (gps_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.324938] (gps_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.333260] (-) TimerEvent: {}
+[2.370666] (gps_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.389211] (gps_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/qianw/EECE5554/LAB1/build/gps_interface\n'}
+[2.399935] (gps_interface) CommandEnded: {'returncode': 0}
+[2.400507] (gps_interface) JobProgress: {'identifier': 'gps_interface', 'progress': 'build'}
+[2.400565] (gps_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qianw/EECE5554/LAB1/build/gps_interface', '--', '-j8', '-l8'], 'cwd': '/home/qianw/EECE5554/LAB1/build/gps_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'qianw'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/qianw/EECE5554/LAB1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3829'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qianw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qianw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Loounx2:@/tmp/.ICE-unix/1594,unix/Loounx2:/tmp/.ICE-unix/1594'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1595c8fc_82f8_4ee9_a324_5df150e622de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DXHR42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_driver:/home/qianw/EECE5554/LAB1/install/gps_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qianw/EECE5554/LAB1/build/gps_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble')]), 'shell': False}
+[2.434226] (-) TimerEvent: {}
+[2.454222] (gps_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.472640] (gps_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.485792] (gps_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_gps_interface\n'}
+[2.534452] (-) TimerEvent: {}
+[2.634955] (-) TimerEvent: {}
+[2.735448] (-) TimerEvent: {}
+[2.836869] (-) TimerEvent: {}
+[2.851847] (gps_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_generator_c.dir/rosidl_generator_c/gps_interface/msg/detail/gp_smsg__functions.c.o\x1b[0m\n'}
+[2.870066] (gps_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.872176] (gps_interface) StdoutLine: {'line': b'creating gps_interface.egg-info\n'}
+[2.873542] (gps_interface) StdoutLine: {'line': b'writing gps_interface.egg-info/PKG-INFO\n'}
+[2.873681] (gps_interface) StdoutLine: {'line': b'writing dependency_links to gps_interface.egg-info/dependency_links.txt\n'}
+[2.873777] (gps_interface) StdoutLine: {'line': b'writing top-level names to gps_interface.egg-info/top_level.txt\n'}
+[2.873866] (gps_interface) StdoutLine: {'line': b"writing manifest file 'gps_interface.egg-info/SOURCES.txt'\n"}
+[2.876242] (gps_interface) StdoutLine: {'line': b"reading manifest file 'gps_interface.egg-info/SOURCES.txt'\n"}
+[2.877114] (gps_interface) StdoutLine: {'line': b"writing manifest file 'gps_interface.egg-info/SOURCES.txt'\n"}
+[2.878765] (gps_interface) StdoutLine: {'line': b'[  9%] Built target gps_interface__cpp\n'}
+[2.900042] (gps_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.900523] (gps_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.900758] (gps_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.933373] (gps_interface) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_gps_interface_egg\n'}
+[2.937842] (-) TimerEvent: {}
+[2.943971] (gps_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libgps_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.006753] (gps_interface) StdoutLine: {'line': b'[ 22%] Built target gps_interface__rosidl_generator_c\n'}
+[3.023113] (gps_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.024540] (gps_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.024674] (gps_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.039507] (-) TimerEvent: {}
+[3.140168] (-) TimerEvent: {}
+[3.240606] (-) TimerEvent: {}
+[3.284694] (gps_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps_interface/msg/gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[3.322872] (gps_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps_interface/msg/detail/dds_fastrtps/gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[3.323089] (gps_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps_interface/msg/detail/gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[3.340744] (-) TimerEvent: {}
+[3.441246] (-) TimerEvent: {}
+[3.470640] (gps_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps_interface/msg/gp_smsg__type_support.cpp.o\x1b[0m\n'}
+[3.477992] (gps_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps_interface/msg/detail/gp_smsg__type_support_c.cpp.o\x1b[0m\n'}
+[3.483492] (gps_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps_interface/msg/detail/gp_smsg__type_support.c.o\x1b[0m\n'}
+[3.528028] (gps_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libgps_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.543113] (-) TimerEvent: {}
+[3.545683] (gps_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libgps_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.602857] (gps_interface) StdoutLine: {'line': b'[ 58%] Built target gps_interface__rosidl_typesupport_introspection_c\n'}
+[3.605259] (gps_interface) StdoutLine: {'line': b'[ 58%] Built target gps_interface__rosidl_typesupport_c\n'}
+[3.644594] (-) TimerEvent: {}
+[3.746596] (-) TimerEvent: {}
+[3.835944] (gps_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libgps_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.846740] (-) TimerEvent: {}
+[3.898245] (gps_interface) StdoutLine: {'line': b'[ 61%] Built target gps_interface__rosidl_typesupport_cpp\n'}
+[3.947338] (-) TimerEvent: {}
+[4.021615] (gps_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libgps_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.025343] (gps_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libgps_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.050753] (-) TimerEvent: {}
+[4.108124] (gps_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgps_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.142623] (gps_interface) StdoutLine: {'line': b'[ 70%] Built target gps_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.151512] (-) TimerEvent: {}
+[4.158235] (gps_interface) StdoutLine: {'line': b'[ 70%] Built target gps_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.213634] (gps_interface) StdoutLine: {'line': b'[ 70%] Built target gps_interface__rosidl_typesupport_fastrtps_c\n'}
+[4.241878] (gps_interface) StdoutLine: {'line': b'[ 70%] Built target gps_interface\n'}
+[4.252761] (-) TimerEvent: {}
+[4.268993] (gps_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.353044] (-) TimerEvent: {}
+[4.454139] (-) TimerEvent: {}
+[4.554864] (-) TimerEvent: {}
+[4.664471] (-) TimerEvent: {}
+[4.756993] (gps_interface) StdoutLine: {'line': b'[ 74%] Built target gps_interface__py\n'}
+[4.764762] (-) TimerEvent: {}
+[4.788615] (gps_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_generator_py.dir/rosidl_generator_py/gps_interface/msg/_gp_smsg_s.c.o\x1b[0m\n'}
+[4.865639] (-) TimerEvent: {}
+[4.962653] (gps_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_interface/libgps_interface__rosidl_generator_py.so\x1b[0m\n'}
+[4.965803] (-) TimerEvent: {}
+[5.027021] (gps_interface) StdoutLine: {'line': b'[ 80%] Built target gps_interface__rosidl_generator_py\n'}
+[5.062220] (gps_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.066018] (-) TimerEvent: {}
+[5.069584] (gps_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.070036] (gps_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gps_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps_interface/_gps_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.166479] (-) TimerEvent: {}
+[5.271073] (-) TimerEvent: {}
+[5.279936] (gps_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.281919] (gps_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.307737] (gps_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.339969] (gps_interface) StdoutLine: {'line': b'[100%] Built target gps_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[5.340248] (gps_interface) StdoutLine: {'line': b'[100%] Built target gps_interface__rosidl_typesupport_c__pyext\n'}
+[5.371255] (-) TimerEvent: {}
+[5.371764] (gps_interface) StdoutLine: {'line': b'[100%] Built target gps_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.387770] (gps_interface) CommandEnded: {'returncode': 0}
+[5.389271] (gps_interface) JobProgress: {'identifier': 'gps_interface', 'progress': 'install'}
+[5.401424] (gps_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qianw/EECE5554/LAB1/build/gps_interface'], 'cwd': '/home/qianw/EECE5554/LAB1/build/gps_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'qianw'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/qianw/EECE5554/LAB1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3829'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qianw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qianw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Loounx2:@/tmp/.ICE-unix/1594,unix/Loounx2:/tmp/.ICE-unix/1594'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1595c8fc_82f8_4ee9_a324_5df150e622de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DXHR42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_driver:/home/qianw/EECE5554/LAB1/install/gps_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qianw/EECE5554/LAB1/build/gps_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qianw/EECE5554/LAB1/install/gps_interface:/home/qianw/EECE5554/LAB1/install/gps_driver:/opt/ros/humble')]), 'shell': False}
+[5.413881] (gps_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.414070] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/ament_index/resource_index/rosidl_interfaces/gps_interface\n'}
+[5.414164] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.414265] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.414354] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/gp_smsg.h\n'}
+[5.414448] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.414544] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.h\n'}
+[5.414632] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.h\n'}
+[5.414904] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__functions.c\n'}
+[5.415055] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.h\n'}
+[5.415204] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.415311] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/library_path.sh\n'}
+[5.415404] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/library_path.dsv\n'}
+[5.415487] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_generator_c.so\n'}
+[5.415793] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_generator_c.so" to ""\n'}
+[5.415972] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.416064] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.416155] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.416311] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_c.h\n'}
+[5.416578] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.416689] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.416965] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.417057] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.417143] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.417236] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.417328] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_c.h\n'}
+[5.417641] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.c\n'}
+[5.417810] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.417996] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.418115] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.418231] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_c.so\n'}
+[5.418664] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_c.so" to ""\n'}
+[5.418781] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.418860] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.418937] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.419016] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.419092] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.hpp\n'}
+[5.419168] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__builder.hpp\n'}
+[5.420341] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__struct.hpp\n'}
+[5.420680] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__traits.hpp\n'}
+[5.420840] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/gp_smsg.hpp\n'}
+[5.421056] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.421167] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.421335] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.421537] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.421664] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/dds_fastrtps\n'}
+[5.421763] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.421860] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.421951] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.422054] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface\n'}
+[5.422241] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg\n'}
+[5.422632] (gps_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail\n'}
+[5.422784] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.422905] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/include/gps_interface/gps_interface/msg/detail/gp_smsg__type_support.cpp\n'}
+[5.423014] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[5.423122] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.423235] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_cpp.so\n'}
+[5.423331] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[5.423698] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/pythonpath.sh\n'}
+[5.423914] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/pythonpath.dsv\n'}
+[5.424047] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info\n'}
+[5.424158] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.424330] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.424540] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.424695] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.424798] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface\n'}
+[5.424894] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.424990] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.425100] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/libgps_interface__rosidl_generator_py.so\n'}
+[5.425195] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/__init__.py\n'}
+[5.425289] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_c.c\n'}
+[5.425476] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.425712] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.425797] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/_gps_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.425872] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg\n'}
+[5.425948] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg_s.c\n'}
+[5.426022] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg.py\n'}
+[5.426097] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/__init__.py\n'}
+[5.472101] (-) TimerEvent: {}
+[5.478495] (gps_interface) StdoutLine: {'line': b"Listing '/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface'...\n"}
+[5.478690] (gps_interface) StdoutLine: {'line': b"Compiling '/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/__init__.py'...\n"}
+[5.478800] (gps_interface) StdoutLine: {'line': b"Listing '/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg'...\n"}
+[5.478884] (gps_interface) StdoutLine: {'line': b"Compiling '/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/__init__.py'...\n"}
+[5.478964] (gps_interface) StdoutLine: {'line': b"Compiling '/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/msg/_gp_smsg.py'...\n"}
+[5.485090] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.485544] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.485957] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.486358] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.486730] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.486986] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages/gps_interface/gps_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.487165] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_generator_py.so\n'}
+[5.487517] (gps_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/qianw/EECE5554/LAB1/install/gps_interface/lib/libgps_interface__rosidl_generator_py.so" to ""\n'}
+[5.487833] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/msg/GPSmsg.idl\n'}
+[5.487968] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/msg/GPSmsg.msg\n'}
+[5.488226] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/ament_index/resource_index/package_run_dependencies/gps_interface\n'}
+[5.488570] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/ament_index/resource_index/parent_prefix_path/gps_interface\n'}
+[5.488676] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/ament_prefix_path.sh\n'}
+[5.488928] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/ament_prefix_path.dsv\n'}
+[5.489064] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/path.sh\n'}
+[5.489241] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/environment/path.dsv\n'}
+[5.489408] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/local_setup.bash\n'}
+[5.489765] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/local_setup.sh\n'}
+[5.489936] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/local_setup.zsh\n'}
+[5.490169] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/local_setup.dsv\n'}
+[5.490300] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.dsv\n'}
+[5.490569] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/ament_index/resource_index/packages/gps_interface\n'}
+[5.490833] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport.cmake\n'}
+[5.491036] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.491189] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.491286] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.491527] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.491781] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.492038] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.492152] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.492386] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_cppExport.cmake\n'}
+[5.492611] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.492760] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.493031] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.493286] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.493651] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.493802] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.494058] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_pyExport.cmake\n'}
+[5.494217] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/export_gps_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.494490] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.494637] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.494884] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.495169] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.495299] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.495630] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.495786] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.496011] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interfaceConfig.cmake\n'}
+[5.496112] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/cmake/gps_interfaceConfig-version.cmake\n'}
+[5.496207] (gps_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB1/install/gps_interface/share/gps_interface/package.xml\n'}
+[5.500218] (gps_interface) CommandEnded: {'returncode': 0}
+[5.532283] (gps_interface) JobEnded: {'identifier': 'gps_interface', 'rc': 0}
+[5.533190] (gps_driver) JobStarted: {'identifier': 'gps_driver'}
+[5.572534] (-) TimerEvent: {}
+[5.673566] (-) TimerEvent: {}
+[5.774170] (-) TimerEvent: {}
+[5.874781] (-) TimerEvent: {}
+[5.975909] (-) TimerEvent: {}
+[6.076779] (-) TimerEvent: {}
+[6.177391] (-) TimerEvent: {}
+[6.279963] (-) TimerEvent: {}
+[6.380939] (-) TimerEvent: {}
+[6.481702] (-) TimerEvent: {}
+[6.509605] (gps_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gps_driver', 'build', '--build-base', '/home/qianw/EECE5554/LAB1/build/gps_driver/build', 'install', '--record', '/home/qianw/EECE5554/LAB1/build/gps_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qianw/EECE5554/LAB1/src/gps_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'qianw', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/qianw/EECE5554/LAB1/install/gps_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/qianw/EECE5554/LAB1/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3829', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qianw/EECE5554/LAB1/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qianw', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qianw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Loounx2:@/tmp/.ICE-unix/1594,unix/Loounx2:/tmp/.ICE-unix/1594', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1595c8fc_82f8_4ee9_a324_5df150e622de', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DXHR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/qianw/EECE5554/LAB1/install/gps_driver:/home/qianw/EECE5554/LAB1/install/gps_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qianw/EECE5554/LAB1/build/gps_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qianw/EECE5554/LAB1/build/gps_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB1/install/gps_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/qianw/EECE5554/LAB1/install/gps_interface'}, 'shell': False}
+[6.581897] (-) TimerEvent: {}
+[6.682219] (-) TimerEvent: {}
+[6.788516] (-) TimerEvent: {}
+[6.884285] (gps_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.885218] (gps_driver) StdoutLine: {'line': b'creating ../../build/gps_driver/gps_driver.egg-info\n'}
+[6.885601] (gps_driver) StdoutLine: {'line': b'writing ../../build/gps_driver/gps_driver.egg-info/PKG-INFO\n'}
+[6.885914] (gps_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/gps_driver/gps_driver.egg-info/dependency_links.txt\n'}
+[6.886052] (gps_driver) StdoutLine: {'line': b'writing entry points to ../../build/gps_driver/gps_driver.egg-info/entry_points.txt\n'}
+[6.886310] (gps_driver) StdoutLine: {'line': b'writing requirements to ../../build/gps_driver/gps_driver.egg-info/requires.txt\n'}
+[6.886558] (gps_driver) StdoutLine: {'line': b'writing top-level names to ../../build/gps_driver/gps_driver.egg-info/top_level.txt\n'}
+[6.886833] (gps_driver) StdoutLine: {'line': b"writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'\n"}
+[6.888604] (gps_driver) StdoutLine: {'line': b"reading manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'\n"}
+[6.888750] (-) TimerEvent: {}
+[6.889027] (gps_driver) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.889700] (gps_driver) StdoutLine: {'line': b"writing manifest file '../../build/gps_driver/gps_driver.egg-info/SOURCES.txt'\n"}
+[6.890029] (gps_driver) StdoutLine: {'line': b'running build\n'}
+[6.890199] (gps_driver) StdoutLine: {'line': b'running build_py\n'}
+[6.890450] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/build/gps_driver/build\n'}
+[6.890593] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib\n'}
+[6.890707] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver\n'}
+[6.890807] (gps_driver) StdoutLine: {'line': b'copying gps_driver/__init__.py -> /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver\n'}
+[6.891001] (gps_driver) StdoutLine: {'line': b'copying gps_driver/driver.py -> /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver\n'}
+[6.891106] (gps_driver) StdoutLine: {'line': b'running install\n'}
+[6.891343] (gps_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.892480] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver\n'}
+[6.892800] (gps_driver) StdoutLine: {'line': b'copying /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver/__init__.py -> /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver\n'}
+[6.892949] (gps_driver) StdoutLine: {'line': b'copying /home/qianw/EECE5554/LAB1/build/gps_driver/build/lib/gps_driver/driver.py -> /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver\n'}
+[6.893429] (gps_driver) StdoutLine: {'line': b'byte-compiling /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[6.893786] (gps_driver) StdoutLine: {'line': b'byte-compiling /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver/driver.py to driver.cpython-310.pyc\n'}
+[6.895294] (gps_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.896479] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/install/gps_driver/share/ament_index\n'}
+[6.896624] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index\n'}
+[6.896716] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index/packages\n'}
+[6.896797] (gps_driver) StdoutLine: {'line': b'copying resource/gps_driver -> /home/qianw/EECE5554/LAB1/install/gps_driver/share/ament_index/resource_index/packages\n'}
+[6.896875] (gps_driver) StdoutLine: {'line': b'copying package.xml -> /home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver\n'}
+[6.896952] (gps_driver) StdoutLine: {'line': b'creating /home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/launch\n'}
+[6.897027] (gps_driver) StdoutLine: {'line': b'copying launch/gps_launch.py -> /home/qianw/EECE5554/LAB1/install/gps_driver/share/gps_driver/launch\n'}
+[6.897103] (gps_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.898775] (gps_driver) StdoutLine: {'line': b'Copying ../../build/gps_driver/gps_driver.egg-info to /home/qianw/EECE5554/LAB1/install/gps_driver/lib/python3.10/site-packages/gps_driver-0.0.0-py3.10.egg-info\n'}
+[6.900107] (gps_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.933529] (gps_driver) StdoutLine: {'line': b'Installing gps_driver script to /home/qianw/EECE5554/LAB1/install/gps_driver/lib/gps_driver\n'}
+[6.934016] (gps_driver) StdoutLine: {'line': b"writing list of installed files to '/home/qianw/EECE5554/LAB1/build/gps_driver/install.log'\n"}
+[6.967632] (gps_driver) CommandEnded: {'returncode': 0}
+[6.976911] (gps_driver) JobEnded: {'identifier': 'gps_driver', 'rc': 0}
+[6.977893] (-) EventReactorShutdown: {}

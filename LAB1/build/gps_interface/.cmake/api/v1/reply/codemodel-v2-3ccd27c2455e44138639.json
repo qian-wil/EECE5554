@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-624ad293d5ece365a417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gps_interface__py",
+					"jsonFile" : "directory-gps_interface__py-5daa0524e40652431332.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/qianw/EECE5554/LAB1/build/gps_interface/gps_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gps_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gps_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gps_interface_egg-b82df372c00b74319abb.json",
+					"name" : "ament_cmake_python_build_gps_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gps_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gps_interface-444b5b5a2768094bd70f.json",
+					"name" : "ament_cmake_python_copy_gps_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface-313182a27cf1d829abe0.json",
+					"name" : "gps_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__cpp-23cae5ccf45f1460487d.json",
+					"name" : "gps_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gps_interface__py::@cb52c688e867af511e4c",
+					"jsonFile" : "target-gps_interface__py-18c32496983250730619.json",
+					"name" : "gps_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_generator_c-3cac54a32f5aa25b7d81.json",
+					"name" : "gps_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_generator_py-3fdb3564bbb1cc4db059.json",
+					"name" : "gps_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_c-bd2c4ff184695d650628.json",
+					"name" : "gps_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_c__pyext-8bfb1aa10eb2085a5b2f.json",
+					"name" : "gps_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_cpp-b86e51a402ddfb49cd24.json",
+					"name" : "gps_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_fastrtps_c-cf8887a983a90ddbbfc0.json",
+					"name" : "gps_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_fastrtps_c__pyext-9a4309e2f27ed1a74734.json",
+					"name" : "gps_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_fastrtps_cpp-2fa4389d7cea7fe0566a.json",
+					"name" : "gps_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_introspection_c-7867c1131533bada86ba.json",
+					"name" : "gps_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_introspection_c__pyext-e0625216e116e3946dad.json",
+					"name" : "gps_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface__rosidl_typesupport_introspection_cpp-63dbec922589f62fb9f9.json",
+					"name" : "gps_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_interface_uninstall-124b7f1708ce86cd3035.json",
+					"name" : "gps_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-416b478b1fb8845ec67d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qianw/EECE5554/LAB1/build/gps_interface",
+		"source" : "/home/qianw/EECE5554/LAB1/src/gps_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
