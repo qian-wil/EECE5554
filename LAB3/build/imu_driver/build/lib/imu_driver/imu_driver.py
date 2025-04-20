@@ -19,7 +19,7 @@ class IMU_Driver(Node):
     self.timer = self.create_timer(timer_period, self.timer_callback)
     
     #Declares the parameters set in the launch file
-    self.declare_parameters(namespace = '', parameters=[('imu_port', '/dev/ttyUSB0'),])
+    self.declare_parameters(namespace = '', parameters=[('imu_port', '/dev/pts/6'),])
     
     #Set and open the port for the IMU
     self.port1 = self.get_parameter('imu_port').value

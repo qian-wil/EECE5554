@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.002660] (imu_interface) JobQueued: {'identifier': 'imu_interface', 'dependencies': OrderedDict()}
+[0.002919] (imu_driver) JobQueued: {'identifier': 'imu_driver', 'dependencies': OrderedDict([('imu_interface', '/home/qianw/EECE5554/LAB3/install/imu_interface')])}
+[0.002989] (imu_interface) JobStarted: {'identifier': 'imu_interface'}
+[0.045352] (imu_interface) JobProgress: {'identifier': 'imu_interface', 'progress': 'cmake'}
+[0.051087] (imu_interface) JobProgress: {'identifier': 'imu_interface', 'progress': 'build'}
+[0.051192] (imu_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qianw/EECE5554/LAB3/build/imu_interface', '--', '-j8', '-l8'], 'cwd': '/home/qianw/EECE5554/LAB3/build/imu_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'qianw'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qianw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qianw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Loounx2:@/tmp/.ICE-unix/1592,unix/Loounx2:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d3852f2b_e50b_4798_9de9_8cc2e3306c2d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IOIO52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qianw/EECE5554/LAB3/build/imu_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099970] (-) TimerEvent: {}
+[0.201815] (-) TimerEvent: {}
+[0.260484] (imu_interface) StdoutLine: {'line': b'[  3%] Built target imu_interface__cpp\n'}
+[0.282201] (imu_interface) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_imu_interface\n'}
+[0.297285] (imu_interface) StdoutLine: {'line': b'[ 12%] Built target imu_interface__rosidl_generator_c\n'}
+[0.301991] (-) TimerEvent: {}
+[0.319944] (imu_interface) StdoutLine: {'line': b'[ 22%] Built target imu_interface__rosidl_typesupport_cpp\n'}
+[0.320431] (imu_interface) StdoutLine: {'line': b'[ 32%] Built target imu_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.321458] (imu_interface) StdoutLine: {'line': b'[ 41%] Built target imu_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.341982] (imu_interface) StdoutLine: {'line': b'[ 67%] Built target imu_interface__rosidl_typesupport_c\n'}
+[0.342222] (imu_interface) StdoutLine: {'line': b'[ 70%] Built target imu_interface__rosidl_typesupport_introspection_c\n'}
+[0.342330] (imu_interface) StdoutLine: {'line': b'[ 70%] Built target imu_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.381352] (imu_interface) StdoutLine: {'line': b'[ 70%] Built target imu_interface\n'}
+[0.403031] (-) TimerEvent: {}
+[0.422727] (imu_interface) StdoutLine: {'line': b'[ 74%] Built target imu_interface__py\n'}
+[0.477275] (imu_interface) StdoutLine: {'line': b'[ 80%] Built target imu_interface__rosidl_generator_py\n'}
+[0.503571] (-) TimerEvent: {}
+[0.522063] (imu_interface) StdoutLine: {'line': b'[ 87%] Built target imu_interface__rosidl_typesupport_c__pyext\n'}
+[0.524965] (imu_interface) StdoutLine: {'line': b'[ 93%] Built target imu_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.525134] (imu_interface) StdoutLine: {'line': b'[100%] Built target imu_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.604831] (-) TimerEvent: {}
+[0.706796] (-) TimerEvent: {}
+[0.808613] (-) TimerEvent: {}
+[0.830116] (imu_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.831350] (imu_interface) StdoutLine: {'line': b'writing imu_interface.egg-info/PKG-INFO\n'}
+[0.831805] (imu_interface) StdoutLine: {'line': b'writing dependency_links to imu_interface.egg-info/dependency_links.txt\n'}
+[0.832189] (imu_interface) StdoutLine: {'line': b'writing top-level names to imu_interface.egg-info/top_level.txt\n'}
+[0.837540] (imu_interface) StdoutLine: {'line': b"reading manifest file 'imu_interface.egg-info/SOURCES.txt'\n"}
+[0.838631] (imu_interface) StdoutLine: {'line': b"writing manifest file 'imu_interface.egg-info/SOURCES.txt'\n"}
+[0.891175] (imu_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_imu_interface_egg\n'}
+[0.908893] (-) TimerEvent: {}
+[0.916537] (imu_interface) CommandEnded: {'returncode': 0}
+[0.930891] (imu_interface) JobProgress: {'identifier': 'imu_interface', 'progress': 'install'}
+[0.945915] (imu_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qianw/EECE5554/LAB3/build/imu_interface'], 'cwd': '/home/qianw/EECE5554/LAB3/build/imu_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'qianw'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qianw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qianw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Loounx2:@/tmp/.ICE-unix/1592,unix/Loounx2:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d3852f2b_e50b_4798_9de9_8cc2e3306c2d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IOIO52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qianw/EECE5554/LAB3/build/imu_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.960144] (imu_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.964300] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/ament_index/resource_index/rosidl_interfaces/imu_interface\n'}
+[0.965868] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.966206] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.966671] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.967142] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__struct.h\n'}
+[0.967341] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.h\n'}
+[0.967439] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__functions.h\n'}
+[0.967570] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__functions.c\n'}
+[0.967756] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.967847] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/im_umsg.h\n'}
+[0.968232] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/library_path.sh\n'}
+[0.968377] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/library_path.dsv\n'}
+[0.970391] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_generator_c.so\n'}
+[0.970806] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.970936] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.971027] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.971114] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.971311] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.972298] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.972595] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.972704] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.973308] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.973625] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.973754] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__struct.hpp\n'}
+[0.973866] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__builder.hpp\n'}
+[0.974033] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.hpp\n'}
+[0.974116] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__traits.hpp\n'}
+[0.974191] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/im_umsg.hpp\n'}
+[0.974357] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.974449] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.974527] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.974609] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.974694] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/dds_fastrtps\n'}
+[0.974774] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.975197] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.975436] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.975561] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.975758] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.975864] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_introspection_c.h\n'}
+[0.975943] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.c\n'}
+[0.976019] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.976348] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.977399] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_c.so\n'}
+[0.977671] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface\n'}
+[0.977774] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg\n'}
+[0.977856] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail\n'}
+[0.978029] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.978127] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/include/imu_interface/imu_interface/msg/detail/im_umsg__type_support.cpp\n'}
+[0.979010] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.980374] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_typesupport_cpp.so\n'}
+[0.980661] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/pythonpath.sh\n'}
+[0.980765] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/pythonpath.dsv\n'}
+[0.981973] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface-0.0.0-py3.10.egg-info\n'}
+[0.982445] (imu_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.982830] (imu_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.983048] (imu_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.983144] (imu_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.983549] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface\n'}
+[0.983782] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/libimu_interface__rosidl_generator_py.so\n'}
+[0.983914] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.984012] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/_imu_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.984222] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/_imu_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.984407] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.984553] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/__init__.py\n'}
+[0.984702] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/_imu_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.984801] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.984897] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/msg\n'}
+[0.985135] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/msg/_im_umsg.py\n'}
+[0.985240] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/msg/__init__.py\n'}
+[0.985317] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/msg/_im_umsg_s.c\n'}
+[1.009710] (-) TimerEvent: {}
+[1.038288] (imu_interface) StdoutLine: {'line': b"Listing '/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface'...\n"}
+[1.038629] (imu_interface) StdoutLine: {'line': b"Listing '/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/msg'...\n"}
+[1.049865] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.056116] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.057748] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages/imu_interface/imu_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.060277] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/lib/libimu_interface__rosidl_generator_py.so\n'}
+[1.061043] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/msg/IMUmsg.idl\n'}
+[1.061366] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/msg/IMUmsg.msg\n'}
+[1.062290] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/ament_index/resource_index/package_run_dependencies/imu_interface\n'}
+[1.063402] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/ament_index/resource_index/parent_prefix_path/imu_interface\n'}
+[1.063945] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/ament_prefix_path.sh\n'}
+[1.064719] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/ament_prefix_path.dsv\n'}
+[1.065055] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/path.sh\n'}
+[1.065263] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/environment/path.dsv\n'}
+[1.065465] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/local_setup.bash\n'}
+[1.065961] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/local_setup.sh\n'}
+[1.066213] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/local_setup.zsh\n'}
+[1.066824] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/local_setup.dsv\n'}
+[1.067294] (imu_interface) StdoutLine: {'line': b'-- Installing: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.dsv\n'}
+[1.068309] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/ament_index/resource_index/packages/imu_interface\n'}
+[1.074809] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cExport.cmake\n'}
+[1.075461] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.078102] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.078736] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.081006] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_generator_cppExport.cmake\n'}
+[1.084376] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.085533] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.087833] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.088727] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.091704] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cExport.cmake\n'}
+[1.092382] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.094665] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.095229] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.097790] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cppExport.cmake\n'}
+[1.098250] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.102257] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_generator_pyExport.cmake\n'}
+[1.102925] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/export_imu_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.103177] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[1.103391] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.103978] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.104222] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.104421] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.104612] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.104802] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.105207] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interfaceConfig.cmake\n'}
+[1.105701] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/cmake/imu_interfaceConfig-version.cmake\n'}
+[1.105965] (imu_interface) StdoutLine: {'line': b'-- Up-to-date: /home/qianw/EECE5554/LAB3/install/imu_interface/share/imu_interface/package.xml\n'}
+[1.111981] (imu_interface) CommandEnded: {'returncode': 0}
+[1.114915] (-) TimerEvent: {}
+[1.221221] (-) TimerEvent: {}
+[1.285108] (imu_interface) JobEnded: {'identifier': 'imu_interface', 'rc': 0}
+[1.285780] (imu_driver) JobStarted: {'identifier': 'imu_driver'}
+[1.321784] (-) TimerEvent: {}
+[1.423635] (-) TimerEvent: {}
+[1.528017] (-) TimerEvent: {}
+[1.628768] (-) TimerEvent: {}
+[1.731668] (-) TimerEvent: {}
+[1.832601] (-) TimerEvent: {}
+[1.933942] (-) TimerEvent: {}
+[2.038610] (-) TimerEvent: {}
+[2.140691] (-) TimerEvent: {}
+[2.242487] (-) TimerEvent: {}
+[2.344019] (-) TimerEvent: {}
+[2.445392] (-) TimerEvent: {}
+[2.547526] (-) TimerEvent: {}
+[2.649688] (-) TimerEvent: {}
+[2.751686] (-) TimerEvent: {}
+[2.853762] (-) TimerEvent: {}
+[2.954306] (-) TimerEvent: {}
+[3.055990] (-) TimerEvent: {}
+[3.157610] (-) TimerEvent: {}
+[3.259996] (-) TimerEvent: {}
+[3.264161] (imu_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_driver', 'build', '--build-base', '/home/qianw/EECE5554/LAB3/build/imu_driver/build', 'install', '--record', '/home/qianw/EECE5554/LAB3/build/imu_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qianw/EECE5554/LAB3/src/imu_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'qianw', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/qianw/EECE5554/LAB3/install/imu_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3799', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qianw', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qianw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Loounx2:@/tmp/.ICE-unix/1592,unix/Loounx2:/tmp/.ICE-unix/1592', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3852f2b_e50b_4798_9de9_8cc2e3306c2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IOIO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/qianw/EECE5554/LAB3/install/imu_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qianw/EECE5554/LAB3/build/imu_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qianw/EECE5554/LAB3/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages:/home/qianw/EECE5554/LAB3/install/imu_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/qianw/EECE5554/LAB3/install/imu_interface'}, 'shell': False}
+[3.361104] (-) TimerEvent: {}
+[3.461718] (-) TimerEvent: {}
+[3.565892] (-) TimerEvent: {}
+[3.666407] (-) TimerEvent: {}
+[3.673513] (imu_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.674129] (imu_driver) StdoutLine: {'line': b'writing ../../build/imu_driver/imu_driver.egg-info/PKG-INFO\n'}
+[3.687656] (imu_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_driver/imu_driver.egg-info/dependency_links.txt\n'}
+[3.687970] (imu_driver) StdoutLine: {'line': b'writing entry points to ../../build/imu_driver/imu_driver.egg-info/entry_points.txt\n'}
+[3.688338] (imu_driver) StdoutLine: {'line': b'writing requirements to ../../build/imu_driver/imu_driver.egg-info/requires.txt\n'}
+[3.688474] (imu_driver) StdoutLine: {'line': b'writing top-level names to ../../build/imu_driver/imu_driver.egg-info/top_level.txt\n'}
+[3.690963] (imu_driver) StdoutLine: {'line': b"reading manifest file '../../build/imu_driver/imu_driver.egg-info/SOURCES.txt'\n"}
+[3.693039] (imu_driver) StdoutLine: {'line': b"writing manifest file '../../build/imu_driver/imu_driver.egg-info/SOURCES.txt'\n"}
+[3.693192] (imu_driver) StdoutLine: {'line': b'running build\n'}
+[3.693288] (imu_driver) StdoutLine: {'line': b'running build_py\n'}
+[3.698174] (imu_driver) StdoutLine: {'line': b'running install\n'}
+[3.698657] (imu_driver) StdoutLine: {'line': b'running install_lib\n'}
+[3.700285] (imu_driver) StdoutLine: {'line': b'running install_data\n'}
+[3.702470] (imu_driver) StdoutLine: {'line': b'copying package.xml -> /home/qianw/EECE5554/LAB3/install/imu_driver/share/imu_driver\n'}
+[3.703403] (imu_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.707740] (imu_driver) StdoutLine: {'line': b"removing '/home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.708403] (imu_driver) StdoutLine: {'line': b'Copying ../../build/imu_driver/imu_driver.egg-info to /home/qianw/EECE5554/LAB3/install/imu_driver/lib/python3.10/site-packages/imu_driver-0.0.0-py3.10.egg-info\n'}
+[3.710834] (imu_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[3.767094] (-) TimerEvent: {}
+[3.773327] (imu_driver) StdoutLine: {'line': b'Installing imu_driver script to /home/qianw/EECE5554/LAB3/install/imu_driver/lib/imu_driver\n'}
+[3.787316] (imu_driver) StdoutLine: {'line': b"writing list of installed files to '/home/qianw/EECE5554/LAB3/build/imu_driver/install.log'\n"}
+[3.868716] (-) TimerEvent: {}
+[3.875497] (imu_driver) CommandEnded: {'returncode': 0}
+[3.929907] (imu_driver) JobEnded: {'identifier': 'imu_driver', 'rc': 0}
+[3.934974] (-) EventReactorShutdown: {}

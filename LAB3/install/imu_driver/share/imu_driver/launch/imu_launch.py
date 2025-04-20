@@ -6,7 +6,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
   port_arg = DeclareLaunchArgument(
     'port',
-    default_value = '/dev/pts/2/',
+    default_value = '/dev/pts/6/',
     description = 'Port for IMU'
   )
   
